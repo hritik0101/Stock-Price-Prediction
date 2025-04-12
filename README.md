@@ -32,6 +32,17 @@ Matplotlib: For visualizing stock price predictions.
 
 Scikit-learn: For scaling and preprocessing the data.
 
+# File Structure
+```
+├── Data Loader.py       # Data preprocessing and loading
+├── Model.py             # Neural network models (FNN, RNN-LSTM)
+├── Training.py             # Model training code
+├── Prediction.py           # Code for making predictions
+├── main.py              # Main script to run the project
+├── README.md            # Project documentation
+└── Nifty50_Historical_Data..csv     # (Sample data)
+```
+
 # Results
 The RNN with LSTM model captures temporal trends effectively, reducing prediction error by approximately 10% compared to simpler feed-forward networks. Below is an example of the actual vs. predicted price visualization:
 
